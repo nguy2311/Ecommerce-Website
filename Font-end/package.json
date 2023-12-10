@@ -51,7 +51,7 @@
       "@babel/plugin-proposal-private-property-in-object"
     ]
   },
-  "proxy": "http://localhost:3001",
+  "proxy": "https://ecommerce-website-il7t72vfn-huynqs-projects-16d37845.vercel.app",
   "browserslist": [
     ">0.2%",
     "not dead",
