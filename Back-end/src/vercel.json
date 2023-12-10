@@ -1,0 +1,20 @@
+{
+    "router" : [
+        {
+            "src" : "/api/user",
+            "dest" : "/"
+        },
+        {
+            "src" : "/api/product",
+            "dest" : "/"
+        },
+        {
+            "src" : "/api/order",
+            "dest" : "/"
+        },
+        {
+            "src" : "/api/payment",
+            "dest" : "/"
+        }
+    ]
+}
