@@ -41,8 +41,10 @@ export const getAllUser = async (access_token) => {
 
 
 export const refreshToken = async (refreshToken) => {
-    const res = await axios.post(`${process.env.REACT_APP_API_URL_BACKEND}/user/refresh-token`,{
-        withCredentials: true,
+    const res = await axios.post(`${process.env.REACT_APP_API_URL_BACKEND}/user/refresh-token`,{} , {
+        headers: {
+            token: `Bearer ${refreshToken}`,
+        }
     })
     return res.data
 }
